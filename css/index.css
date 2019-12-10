@@ -243,4 +243,27 @@ nav div a {
     .head-info img {
         display: none;
     }
+    .section-wrap1 {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: space-between;
+        padding: 8% 0;
+    }
+    .half {
+        padding: 4% 0;
+    }
+    .section-wrap2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 72vh;
+    }
+    .section-wrap2 .third {
+        width: 100%;
+     }
+     .section-wrap2 .third:first-child {
+        width: 100%;
+        padding: 4% 0;
+     }
 }
